@@ -4,9 +4,27 @@
     text-align: center;
 }
 
+.justify {
+    float: none;
+    margin: 0 auto;
+    text-align: justify;
+}
+
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    background-image: url('starbackground.png');
+    color: #FFF;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.highlight {
+    font-style: italic;
+    color: #BBB;
 }
 
 .bottom-large-spacer {

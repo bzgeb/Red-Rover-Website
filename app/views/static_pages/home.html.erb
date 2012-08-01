@@ -1,8 +1,8 @@
 <% provide(:title, 'Home') %>
 <!-- Title -->
 <div class="row bottom-large-spacer">
-    <div class="span8 center">
-        <h1>Red Rover</h1>
+    <div class="span7 center">
+        <%= image_tag("RedRoverLogo.png") %>
     </div>
 </div>
 
@@ -15,16 +15,24 @@
 
 <!-- Social -->
 <div class="row bottom-small-spacer center">
-    <div class="span7">
-        <%= image_tag("Twitter Icon-01.png", :size=>"100x100") %>
-        <%= image_tag("Ko-op Logo.png", :size=>"80x80") %>
-        <%= image_tag("Facebook Icon-01.png", :size=>"100x100") %>
+    <div class="span12">
+        <div class="row">
+            <div class="span3 offset1">
+                <%= image_tag("TwitterIcon-100x100.png") %>
+            </div>
+            <div class="span3">
+                <%= image_tag("Ko-opLogo-100x123.png") %>
+            </div>
+            <div class="span3">
+                <%= image_tag("FacebookIcon-100x100.png") %>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- Text -->
 <div class="row">
-    <div class="span7 center">
-      <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p>
+    <div class="span7 justify">
+        <p><span class="highlight">Red Rover</span> is an experimental game about space exploration and the human voyage to Mars.  It combines elements of first-person discovery and puzzle-solving -- seen in game such as <span class="highlight">Myst</span> and <span class="highlight">Proteus</span> -- with an abstract and contemplative approach to hard sci-fi -- as in <span class="highlight">2001: A Space Odyssey</span> or Carl Sagan's <span class="highlight">Cosmos: A Personal Voyage.</span> Out in 2013 for PC, Mac, and Linux.</p>
   </div>
 </div>
