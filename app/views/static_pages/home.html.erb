@@ -8,27 +8,31 @@
 
 <!-- Video -->
 <div class="row bottom-small-spacer">
-    <div class="span12 center">
-        <iframe width="940" height="529" src="http://www.youtube.com/embed/ngAPkCoIAzQ?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+    <div class="span10 center">
+        <iframe id="video" width="100%" height="529" src="http://www.youtube.com/embed/ngAPkCoIAzQ?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 
 <!-- Social -->
-<div class="row bottom-small-spacer center">
-    <div class="span12">
-        <div class="row">
-            <div class="span3 offset1">
-                <a href="http://twitter.com/newton64/"><%= image_tag("twittericon140.png") %></a>
-            </div>
-            <div class="span3">
-                <a href="http://www.ko-opmode.com"><%= image_tag("ko-opicon.png") %></a>
-            </div>
-            <div class="span3">
-                <a href="https://www.facebook.com/pages/Red-Rover-The-Game/116057868541123"><%= image_tag("fbicon140.png") %></a>
-            </div>
-        </div>
+<div class="row-fluid bottom-small-spacer center hidden-phone">
+    <div class="span4">
+        <a href="http://twitter.com/newton64/"><%= image_tag("twittericon140.png") %></a>
+    </div>
+    <div class="span4">
+        <a href="http://www.ko-opmode.com"><%= image_tag("ko-opicon.png") %></a>
+    </div>
+    <div class="span4">
+        <a href="https://www.facebook.com/pages/Red-Rover-The-Game/116057868541123"><%= image_tag("fbicon140.png") %></a>
     </div>
 </div>
+
+<!-- Phone -->
+<div class="row bottom-small-spacer center visible-phone">
+        <a href="http://twitter.com/newton64/"><%= image_tag("twittericon140.png", :width=>"100px") %></a>
+        <a href="http://www.ko-opmode.com"><%= image_tag("ko-opicon.png", :width=>"100px") %></a>
+        <a href="https://www.facebook.com/pages/Red-Rover-The-Game/116057868541123"><%= image_tag("fbicon140.png", :width=>"100px") %></a>
+</div>
+
 
 <!-- Text -->
 <div class="row">
