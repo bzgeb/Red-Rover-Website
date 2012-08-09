@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require normalize
- *= require bootstrap_and_overrides
+ *= require bootstrap.min
+ *= require bootstrap-responsive.min
  *= require scaffolds
 */
